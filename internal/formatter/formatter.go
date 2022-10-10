@@ -3,12 +3,12 @@ package formatter
 import (
 	"errors"
 
-	"github.com/lighttiger2505/sqls/ast"
-	"github.com/lighttiger2505/sqls/ast/astutil"
-	"github.com/lighttiger2505/sqls/internal/config"
-	"github.com/lighttiger2505/sqls/internal/lsp"
-	"github.com/lighttiger2505/sqls/parser"
-	"github.com/lighttiger2505/sqls/token"
+	"github.com/mikeismert/sqls/ast"
+	"github.com/mikeismert/sqls/ast/astutil"
+	"github.com/mikeismert/sqls/internal/config"
+	"github.com/mikeismert/sqls/internal/lsp"
+	"github.com/mikeismert/sqls/parser"
+	"github.com/mikeismert/sqls/token"
 )
 
 func Format(text string, params lsp.DocumentFormattingParams, cfg *config.Config) ([]lsp.TextEdit, error) {

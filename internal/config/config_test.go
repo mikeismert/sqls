@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/lighttiger2505/sqls/internal/database"
+	"github.com/mikeismert/sqls/internal/database"
 )
 
 func TestGetConfig(t *testing.T) {
@@ -42,7 +42,7 @@ func TestGetConfig(t *testing.T) {
 					{
 						Alias:          "sqls_sqlite3",
 						Driver:         "sqlite3",
-						DataSourceName: "file:/home/lighttiger2505/chinook.db",
+						DataSourceName: "file:/home/mikeismert/chinook.db",
 					},
 					{
 						Alias:  "sqls_postgresql",
@@ -69,7 +69,7 @@ func TestGetConfig(t *testing.T) {
 							Port:       22,
 							User:       "vagrant",
 							PassPhrase: "passphrase1234",
-							PrivateKey: "/home/lighttiger2505/.ssh/id_rsa",
+							PrivateKey: "/home/mikeismert/.ssh/id_rsa",
 						},
 					},
 				},

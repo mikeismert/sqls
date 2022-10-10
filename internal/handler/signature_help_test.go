@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/lighttiger2505/sqls/internal/config"
-	"github.com/lighttiger2505/sqls/internal/database"
-	"github.com/lighttiger2505/sqls/internal/lsp"
+	"github.com/mikeismert/sqls/internal/config"
+	"github.com/mikeismert/sqls/internal/database"
+	"github.com/mikeismert/sqls/internal/lsp"
 )
 
 type signatureHelpTestCase struct {

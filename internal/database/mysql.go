@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/lighttiger2505/sqls/dialect"
+	"github.com/mikeismert/sqls/dialect"
 	"golang.org/x/crypto/ssh"
 )
 

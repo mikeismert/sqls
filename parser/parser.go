@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/lighttiger2505/sqls/ast"
-	"github.com/lighttiger2505/sqls/ast/astutil"
-	"github.com/lighttiger2505/sqls/dialect"
-	"github.com/lighttiger2505/sqls/token"
+	"github.com/mikeismert/sqls/ast"
+	"github.com/mikeismert/sqls/ast/astutil"
+	"github.com/mikeismert/sqls/dialect"
+	"github.com/mikeismert/sqls/token"
 )
 
 type (
